@@ -1,0 +1,52 @@
+// main method 
+
+// this method creates a new queue 
+// the methdod also tests and display ask users input of numbers to enqueue into the queue
+// the method will print out the results after user input
+// the method will perform enqueue, dequeue, check to see if queue is empty, and size of queue
+
+//**********************************************************************************//
+
+// Node class
+
+// this class creates a constructor, get and set methods for the data, and node next for the queue.
+
+
+//**********************************************************************************//
+
+// QueueElement class
+
+// this class creates a constructor, get and set methods for the data, and queueElement next for the queue.
+
+//**********************************************************************************//
+// Queue Class
+
+
+/** this queue class contains methods that does the following:
+ * a method to instantiate a null queue
+ * an enqueue method -- add an element to the queue
+ * an dequeue method -- remove an element form the queue
+ * a size method -- return the size of the queue
+ * a boolean isEmpty method to determine if the queue is empty
+ */
+
+
+instantiate a null queue
+enqueue – add an element to the queue
+dequeue – remove an element from the queue
+size – return the size of the queue
+a boolean isEmpty method
+
+//queue class should maintain a head pointer to the first element in the queue, 
+a tail pointer to the last element in the queue, and the size of the queue as queue properties.  
+
+ 
+
+//add elements to the tail of the queue and remove elements from the head of the queue. 
+//The head pointer points to the spot from which elements are deleted from the queue, and the tail pointer points to the end of the queue where elements are added to the queue.
+
+//Note that elements move though the queue in the opposite direction of the pointers from one element to the next.  
+//Head points to the first element in the queue.  
+//Head.next points to the element that will become the head when the head is removed (de-queue method) – the pointers point back in the queue.
+
+
